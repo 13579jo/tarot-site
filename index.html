@@ -9,7 +9,53 @@
 
 
 
+/* 手機版優化 */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
 
+  .controls select,
+  .controls button,
+  #drawBtn {
+    font-size: 14px;
+    padding: 8px 14px;
+    margin: 6px 5px;
+    width: 90%;
+    max-width: 320px;
+  }
+
+  #cardsContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .cardBox {
+    width: 85vw;
+    height: auto;
+    max-width: 260px;
+    aspect-ratio: 3 / 5;
+  }
+
+  .cardContent {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  #footerNote {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .shuffleCard {
+    width: 60vw;
+    max-width: 240px;
+    height: auto;
+    aspect-ratio: 3 / 5;
+  }
+}
 
 
 
