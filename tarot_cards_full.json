@@ -1,0 +1,392 @@
+[
+  {
+    "name": "愚者",
+    "upright": "新開始、冒險、自由的靈魂",
+    "reversed": "魯莽、缺乏目標、不成熟"
+  },
+  {
+    "name": "魔術師",
+    "upright": "創造力、資源運用、自信",
+    "reversed": "欺騙、操縱、潛力未發揮"
+  },
+  {
+    "name": "女祭司",
+    "upright": "直覺、潛意識、神祕",
+    "reversed": "壓抑情緒、秘密揭露、迷惘"
+  },
+  {
+    "name": "女皇",
+    "upright": "豐收、母性、創造力",
+    "reversed": "依賴、懶散、過度照顧"
+  },
+  {
+    "name": "皇帝",
+    "upright": "穩定、父性、結構與秩序",
+    "reversed": "控制、專制、冷酷"
+  },
+  {
+    "name": "教皇",
+    "upright": "傳統、信念、精神導師",
+    "reversed": "教條、壓抑、拒絕規範"
+  },
+  {
+    "name": "戀人",
+    "upright": "愛情、選擇、關係合一",
+    "reversed": "誘惑、分離、錯誤選擇"
+  },
+  {
+    "name": "戰車",
+    "upright": "勝利、意志力、掌控",
+    "reversed": "失控、爭執、壓抑"
+  },
+  {
+    "name": "力量",
+    "upright": "內在勇氣、克服恐懼、自信",
+    "reversed": "焦慮、缺乏信念、壓力"
+  },
+  {
+    "name": "隱者",
+    "upright": "靜心、內在探索、智慧",
+    "reversed": "孤獨、封閉、逃避"
+  },
+  {
+    "name": "命運之輪",
+    "upright": "命運轉變、幸運機會",
+    "reversed": "逆境、變動、重複循環"
+  },
+  {
+    "name": "正義",
+    "upright": "公平、真理、法律與判斷",
+    "reversed": "偏頗、不公、逃避責任"
+  },
+  {
+    "name": "倒吊人",
+    "upright": "靜止、犧牲、觀點轉換",
+    "reversed": "固執、停滯、無力"
+  },
+  {
+    "name": "死神",
+    "upright": "結束與重生、轉化",
+    "reversed": "抗拒改變、停滯"
+  },
+  {
+    "name": "節制",
+    "upright": "平衡、節制、協調",
+    "reversed": "極端、失衡、不耐煩"
+  },
+  {
+    "name": "惡魔",
+    "upright": "誘惑、束縛、成癮",
+    "reversed": "解脫、清醒、拒絕控制"
+  },
+  {
+    "name": "高塔",
+    "upright": "崩毀、驚變、重建",
+    "reversed": "避免災難、延遲災變"
+  },
+  {
+    "name": "星星",
+    "upright": "希望、療癒、靈感",
+    "reversed": "失望、困惑、不安"
+  },
+  {
+    "name": "月亮",
+    "upright": "幻象、潛意識、情緒",
+    "reversed": "迷惘、恐懼、混亂"
+  },
+  {
+    "name": "太陽",
+    "upright": "成功、快樂、光明",
+    "reversed": "過度樂觀、焦躁"
+  },
+  {
+    "name": "審判",
+    "upright": "甦醒、覺醒、反思",
+    "reversed": "懷疑、自我批判、拒絕成長"
+  },
+  {
+    "name": "世界",
+    "upright": "完成、成就、圓滿",
+    "reversed": "未完成、缺乏整合、延遲"
+  },
+  {
+    "name": "權杖王牌",
+    "upright": "新的開始與靈感",
+    "reversed": "延遲、機會錯失"
+  },
+  {
+    "name": "權杖二",
+    "upright": "平衡與選擇",
+    "reversed": "混亂、不和"
+  },
+  {
+    "name": "權杖三",
+    "upright": "成長與合作",
+    "reversed": "誤解、分離"
+  },
+  {
+    "name": "權杖四",
+    "upright": "穩定與休息",
+    "reversed": "無聊、停滯"
+  },
+  {
+    "name": "權杖五",
+    "upright": "衝突與挑戰",
+    "reversed": "釋懷、再出發"
+  },
+  {
+    "name": "權杖六",
+    "upright": "成功與分享",
+    "reversed": "驕傲、自我中心"
+  },
+  {
+    "name": "權杖七",
+    "upright": "防衛與堅持",
+    "reversed": "不安、錯誤評估"
+  },
+  {
+    "name": "權杖八",
+    "upright": "行動與變化",
+    "reversed": "延遲、阻礙"
+  },
+  {
+    "name": "權杖九",
+    "upright": "堅持與防守",
+    "reversed": "疲憊、戒心過重"
+  },
+  {
+    "name": "權杖十",
+    "upright": "負擔與責任",
+    "reversed": "釋放重擔、壓力過大"
+  },
+  {
+    "name": "權杖侍者",
+    "upright": "消息與學習",
+    "reversed": "幼稚、錯誤訊息"
+  },
+  {
+    "name": "權杖騎士",
+    "upright": "進展與行動",
+    "reversed": "衝動、急躁"
+  },
+  {
+    "name": "權杖皇后",
+    "upright": "滋養與創造",
+    "reversed": "情緒化、干涉"
+  },
+  {
+    "name": "權杖國王",
+    "upright": "領導與掌控",
+    "reversed": "控制、冷酷"
+  },
+  {
+    "name": "聖杯王牌",
+    "upright": "新的開始與靈感",
+    "reversed": "延遲、機會錯失"
+  },
+  {
+    "name": "聖杯二",
+    "upright": "平衡與選擇",
+    "reversed": "混亂、不和"
+  },
+  {
+    "name": "聖杯三",
+    "upright": "成長與合作",
+    "reversed": "誤解、分離"
+  },
+  {
+    "name": "聖杯四",
+    "upright": "穩定與休息",
+    "reversed": "無聊、停滯"
+  },
+  {
+    "name": "聖杯五",
+    "upright": "衝突與挑戰",
+    "reversed": "釋懷、再出發"
+  },
+  {
+    "name": "聖杯六",
+    "upright": "成功與分享",
+    "reversed": "驕傲、自我中心"
+  },
+  {
+    "name": "聖杯七",
+    "upright": "防衛與堅持",
+    "reversed": "不安、錯誤評估"
+  },
+  {
+    "name": "聖杯八",
+    "upright": "行動與變化",
+    "reversed": "延遲、阻礙"
+  },
+  {
+    "name": "聖杯九",
+    "upright": "堅持與防守",
+    "reversed": "疲憊、戒心過重"
+  },
+  {
+    "name": "聖杯十",
+    "upright": "負擔與責任",
+    "reversed": "釋放重擔、壓力過大"
+  },
+  {
+    "name": "聖杯侍者",
+    "upright": "消息與學習",
+    "reversed": "幼稚、錯誤訊息"
+  },
+  {
+    "name": "聖杯騎士",
+    "upright": "進展與行動",
+    "reversed": "衝動、急躁"
+  },
+  {
+    "name": "聖杯皇后",
+    "upright": "滋養與創造",
+    "reversed": "情緒化、干涉"
+  },
+  {
+    "name": "聖杯國王",
+    "upright": "領導與掌控",
+    "reversed": "控制、冷酷"
+  },
+  {
+    "name": "寶劍王牌",
+    "upright": "新的開始與靈感",
+    "reversed": "延遲、機會錯失"
+  },
+  {
+    "name": "寶劍二",
+    "upright": "平衡與選擇",
+    "reversed": "混亂、不和"
+  },
+  {
+    "name": "寶劍三",
+    "upright": "成長與合作",
+    "reversed": "誤解、分離"
+  },
+  {
+    "name": "寶劍四",
+    "upright": "穩定與休息",
+    "reversed": "無聊、停滯"
+  },
+  {
+    "name": "寶劍五",
+    "upright": "衝突與挑戰",
+    "reversed": "釋懷、再出發"
+  },
+  {
+    "name": "寶劍六",
+    "upright": "成功與分享",
+    "reversed": "驕傲、自我中心"
+  },
+  {
+    "name": "寶劍七",
+    "upright": "防衛與堅持",
+    "reversed": "不安、錯誤評估"
+  },
+  {
+    "name": "寶劍八",
+    "upright": "行動與變化",
+    "reversed": "延遲、阻礙"
+  },
+  {
+    "name": "寶劍九",
+    "upright": "堅持與防守",
+    "reversed": "疲憊、戒心過重"
+  },
+  {
+    "name": "寶劍十",
+    "upright": "負擔與責任",
+    "reversed": "釋放重擔、壓力過大"
+  },
+  {
+    "name": "寶劍侍者",
+    "upright": "消息與學習",
+    "reversed": "幼稚、錯誤訊息"
+  },
+  {
+    "name": "寶劍騎士",
+    "upright": "進展與行動",
+    "reversed": "衝動、急躁"
+  },
+  {
+    "name": "寶劍皇后",
+    "upright": "滋養與創造",
+    "reversed": "情緒化、干涉"
+  },
+  {
+    "name": "寶劍國王",
+    "upright": "領導與掌控",
+    "reversed": "控制、冷酷"
+  },
+  {
+    "name": "星幣王牌",
+    "upright": "新的開始與靈感",
+    "reversed": "延遲、機會錯失"
+  },
+  {
+    "name": "星幣二",
+    "upright": "平衡與選擇",
+    "reversed": "混亂、不和"
+  },
+  {
+    "name": "星幣三",
+    "upright": "成長與合作",
+    "reversed": "誤解、分離"
+  },
+  {
+    "name": "星幣四",
+    "upright": "穩定與休息",
+    "reversed": "無聊、停滯"
+  },
+  {
+    "name": "星幣五",
+    "upright": "衝突與挑戰",
+    "reversed": "釋懷、再出發"
+  },
+  {
+    "name": "星幣六",
+    "upright": "成功與分享",
+    "reversed": "驕傲、自我中心"
+  },
+  {
+    "name": "星幣七",
+    "upright": "防衛與堅持",
+    "reversed": "不安、錯誤評估"
+  },
+  {
+    "name": "星幣八",
+    "upright": "行動與變化",
+    "reversed": "延遲、阻礙"
+  },
+  {
+    "name": "星幣九",
+    "upright": "堅持與防守",
+    "reversed": "疲憊、戒心過重"
+  },
+  {
+    "name": "星幣十",
+    "upright": "負擔與責任",
+    "reversed": "釋放重擔、壓力過大"
+  },
+  {
+    "name": "星幣侍者",
+    "upright": "消息與學習",
+    "reversed": "幼稚、錯誤訊息"
+  },
+  {
+    "name": "星幣騎士",
+    "upright": "進展與行動",
+    "reversed": "衝動、急躁"
+  },
+  {
+    "name": "星幣皇后",
+    "upright": "滋養與創造",
+    "reversed": "情緒化、干涉"
+  },
+  {
+    "name": "星幣國王",
+    "upright": "領導與掌控",
+    "reversed": "控制、冷酷"
+  }
+]
