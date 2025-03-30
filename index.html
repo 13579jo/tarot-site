@@ -263,7 +263,45 @@
   }
 
 
+@media (max-width: 768px) {
+  /* 根據抽牌數量自動調整卡片大小 */
+  #cardsContainer.card-count-1 .cardBox,
+  #shuffleAnimation.card-count-1 .shuffleCard {
+    width: 50vw;
+    max-width: 180px;
+  }
 
+  #cardsContainer.card-count-3 .cardBox,
+  #shuffleAnimation.card-count-3 .shuffleCard {
+    width: 30vw;
+    max-width: 120px;
+  }
+
+  #cardsContainer.card-count-5 .cardBox,
+  #shuffleAnimation.card-count-5 .shuffleCard {
+    width: 25vw;
+    max-width: 100px;
+  }
+
+  #cardsContainer.card-count-6 .cardBox,
+  #shuffleAnimation.card-count-6 .shuffleCard {
+    width: 22vw;
+    max-width: 90px;
+  }
+
+  .cardContent {
+    font-size: 12px;
+    padding: 4px;
+  }
+}
+
+// 根據卡片數量加入 class 讓 CSS 自動調整大小
+container.className = "card-count-" + labels.length;
+animationBox.className = "card-count-" + labels.length;
+
+
+
+    
  
 
 
