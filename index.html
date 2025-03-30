@@ -9,109 +9,6 @@
 
 
 
-
-<!-- 社群分享預覽設定 -->
-<meta property="og:title" content="神秘塔羅牌占卜" />
-<meta property="og:description" content="點進來抽張牌，看看宇宙今天想告訴你什麼。" />
-<meta property="og:image" content="preview.jpg" />
-<meta property="og:url" content="https://13579jo.github.io/tarot-site/" />
-<meta property="og:type" content="website" />
-
-<!-- Twitter 預覽也支援（可選） -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="神秘塔羅牌占卜" />
-<meta name="twitter:description" content="點進來抽張牌，看看宇宙今天想告訴你什麼。" />
-<meta name="twitter:image" content="preview.jpg" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-/* 手機版優化 */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 24px;
-    margin-top: 20px;
-  }
-
-  .controls select,
-  .controls button,
-  #drawBtn {
-    font-size: 14px;
-    padding: 8px 14px;
-    margin: 6px 5px;
-    width: 90%;
-    max-width: 320px;
-  }
-
-  #cardsContainer {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-  .cardBox {
-  width: 40vw;
-  max-width: 160px;
-  aspect-ratio: 3 / 5;
-}
-
-  .cardContent {
-    font-size: 14px;
-    padding: 8px;
-  }
-
-  #footerNote {
-    font-size: 14px;
-    padding: 6px;
-  }
-
-  .shuffleCard {
-    width: 40vw;
-    max-width: 160px;
-    height: auto;
-    aspect-ratio: 3 / 5;
-  }
-}
-
-
-#cardsContainer {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
     body {
       margin: 0;
       background: url('877096_0.jpg') no-repeat center center fixed;
@@ -283,13 +180,6 @@
 
 
 
-
-
-
-
-
-
-
   </style>
 
 
@@ -297,39 +187,15 @@
 
 
 
-
-
-<script>
-    const introMusic = document.getElementById("intro-music");
-  
-    window.addEventListener("load", () => {
-      introMusic.play().catch(() => {
-        // 若自動播放被阻擋，等待使用者第一次點擊
-        document.body.addEventListener("click", () => {
-          introMusic.play();
-        }, { once: true });
-      });
-  
-      // 10 秒後自動停止
-      setTimeout(() => {
-        introMusic.pause();
-        introMusic.currentTime = 0;
-      }, 10000); // 10000毫秒 = 10秒
-    });
-  </script>
-
-
-
-
-
-
-
-
-
-
-
-
 </head>
+
+
+
+
+
+
+
+
 <body>
 
 
@@ -349,23 +215,6 @@
     
 
 
-
-
-    
-    
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
   <h1>神秘塔羅牌占卜</h1>
   <div class="controls">
     <select id="mode">
@@ -380,17 +229,11 @@
 
 
 
-    
+   
+
    
 
 
-    <audio id="intro-music">
-        <source src="和気あいあい.mp3" type="audio/mpeg">
-        您的瀏覽器不支援音樂播放。
-      </audio>
-
-
-      
       
 
 
@@ -444,14 +287,6 @@
 
 
 
-  
-
-   
-  
-
-
-
-
     const bgMusic = document.getElementById("bgMusic");
 
 
@@ -463,29 +298,12 @@
   });
 });
 
-
-// 確保背景音樂播放不中斷（針對瀏覽器自動暫停）
+  
 document.addEventListener("visibilitychange", () => {
-  if (document.visibilityState === "visible") {
-    bgMusic.play().catch(() => {});
+  if (document.visibilityState === "hidden") {
+    bgMusic.pause();
   }
 });
-
-// 如果切畫面或抽牌時中斷，也強制繼續播放
-setInterval(() => {
-  if (bgMusic.paused) {
-    bgMusic.play().catch(() => {});
-  }
-}, 3000);
-
-
-
-
-
-
-
-
-
 
 
 
@@ -494,9 +312,7 @@ setInterval(() => {
 
 
 function shareToLine() {
-  const url = encodeURIComponent("https://line.me/ti/p/yXlMzsT9U7");
-  const message = encodeURIComponent("加老師 ID");
-  const lineUrl = `https://line.me/ti/p/yXlMzsT9U7`;
+  const lineUrl = "https://line.me/ti/p/yXlMzsT9U7";
   window.open(lineUrl, "_blank");
 }
 
@@ -507,19 +323,6 @@ function shareToLine() {
 document.getElementById("shuffleSound").volume = 0.1; // 0.0 ~ 0.3
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-   
    
    
     function drawCards(num) {
@@ -581,17 +384,6 @@ document.getElementById("shuffleSound").volume = 0.1; // 0.0 ~ 0.3
 
 
 <script>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -694,21 +486,8 @@ document.getElementById("shuffleSound").volume = 0.1; // 0.0 ~ 0.3
 
 
 <footer id="footerNote">
-    <p>以上僅供參考，如需深入了解請洽詢</p>
-    <button onclick="shareToLine()">老師 LINE</button>
+    <p>僅供參考，如需詳細解答請洽詢</p>
+    <button onclick="shareToLine()">分享到 LINE</button>
   </footer>
   </body>
   </html>
-  
-  <script>
-    window.addEventListener('load', function() {
-      const music = document.getElementById('bg-music');
-      music.play().catch(() => {
-        // 如果被瀏覽器阻擋，就等待點擊再播放
-        document.body.addEventListener('click', () => {
-          music.play();
-        }, { once: true });
-      });
-    });
-  </script>
- 
